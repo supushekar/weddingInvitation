@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lakshmi Supreeth Wedding//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:lakshmi-supreeth-muhurtham-20260702
+DTSTAMP:20260616T000000Z
+SUMMARY:Lakshmi & Supreeth Wedding Ceremony (Muhurtham)
+DTSTART;TZID=Asia/Kolkata:20260702T050000
+DTEND;TZID=Asia/Kolkata:20260702T060000
+LOCATION:Guruvayur Temple, Guruvayur, Kerala, India
+DESCRIPTION:Wedding ceremony recording will be posted on the wedding website: https://sites.google.com/view/lakshmi-supreeth-wedding
+END:VEVENT
+END:VCALENDAR
