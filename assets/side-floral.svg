@@ -1,0 +1,43 @@
+<svg width="420" height="520" viewBox="0 0 420 520" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .petal{fill:#f2c9b7;stroke:#bc8a6d;stroke-width:2}
+      .petal2{fill:#fff0e5;stroke:#c89b80;stroke-width:2}
+      .center{fill:#9d603a}
+      .leaf{fill:#9da374;stroke:#6f7549;stroke-width:1.4}
+      .stem{stroke:#9b8a59;stroke-width:3;fill:none;stroke-linecap:round}
+    </style>
+  </defs>
+  <path class="stem" d="M285 40 C265 115 235 183 180 250 C133 307 91 366 70 480"/>
+  <path class="stem" d="M326 96 C274 111 227 147 198 202"/>
+  <path class="stem" d="M238 176 C282 205 315 242 336 294"/>
+  <path class="leaf" d="M274 90 C254 76 232 85 229 109 C249 116 265 110 274 90Z"/>
+  <path class="leaf" d="M239 146 C220 130 198 141 196 166 C216 173 232 167 239 146Z"/>
+  <path class="leaf" d="M188 224 C166 210 144 224 145 250 C166 255 182 247 188 224Z"/>
+  <path class="leaf" d="M123 330 C102 319 83 333 87 358 C108 361 121 352 123 330Z"/>
+  <path class="leaf" d="M302 150 C287 168 291 190 314 199 C328 180 325 162 302 150Z"/>
+  <path class="leaf" d="M300 244 C282 260 282 280 304 292 C320 275 319 256 300 244Z"/>
+  <g transform="translate(102 385) scale(1.12)">
+    <ellipse class="petal2" cx="0" cy="-45" rx="22" ry="46"/>
+    <ellipse class="petal" cx="32" cy="-32" rx="22" ry="46" transform="rotate(45 32 -32)"/>
+    <ellipse class="petal2" cx="45" cy="0" rx="22" ry="46" transform="rotate(90 45 0)"/>
+    <ellipse class="petal" cx="32" cy="32" rx="22" ry="46" transform="rotate(135 32 32)"/>
+    <ellipse class="petal2" cx="0" cy="45" rx="22" ry="46"/>
+    <ellipse class="petal" cx="-32" cy="32" rx="22" ry="46" transform="rotate(45 -32 32)"/>
+    <ellipse class="petal2" cx="-45" cy="0" rx="22" ry="46" transform="rotate(90 -45 0)"/>
+    <ellipse class="petal" cx="-32" cy="-32" rx="22" ry="46" transform="rotate(135 -32 -32)"/>
+    <circle class="center" cx="0" cy="0" r="18"/>
+    <circle fill="#f7d7a5" cx="0" cy="0" r="8"/>
+  </g>
+  <g transform="translate(294 90) scale(.62)">
+    <ellipse class="petal2" cx="0" cy="-45" rx="22" ry="46"/>
+    <ellipse class="petal" cx="32" cy="-32" rx="22" ry="46" transform="rotate(45 32 -32)"/>
+    <ellipse class="petal2" cx="45" cy="0" rx="22" ry="46" transform="rotate(90 45 0)"/>
+    <ellipse class="petal" cx="32" cy="32" rx="22" ry="46" transform="rotate(135 32 32)"/>
+    <ellipse class="petal2" cx="0" cy="45" rx="22" ry="46"/>
+    <ellipse class="petal" cx="-32" cy="32" rx="22" ry="46" transform="rotate(45 -32 32)"/>
+    <ellipse class="petal2" cx="-45" cy="0" rx="22" ry="46" transform="rotate(90 -45 0)"/>
+    <ellipse class="petal" cx="-32" cy="-32" rx="22" ry="46" transform="rotate(135 -32 -32)"/>
+    <circle class="center" cx="0" cy="0" r="18"/>
+  </g>
+</svg>

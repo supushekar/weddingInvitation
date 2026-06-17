@@ -1,0 +1,22 @@
+<svg width="360" height="520" viewBox="0 0 360 520" xmlns="http://www.w3.org/2000/svg">
+  <g fill="none" stroke="#b9781e" stroke-width="2" opacity=".45">
+    <path d="M180 20 L72 128 H288 Z"/>
+    <path d="M95 128 H265 L285 500 H75 Z"/>
+    <path d="M115 160 H245"/>
+    <path d="M110 205 H250"/>
+    <path d="M105 250 H255"/>
+    <path d="M100 295 H260"/>
+    <path d="M96 340 H264"/>
+    <path d="M92 385 H268"/>
+    <path d="M88 430 H272"/>
+    <path d="M135 500 V355 C135 326 225 326 225 355 V500"/>
+    <path d="M128 92 H232"/>
+    <path d="M150 60 H210"/>
+    <path d="M172 34 H188"/>
+    <path d="M126 160 V500"/>
+    <path d="M234 160 V500"/>
+    <path d="M165 160 V500"/>
+    <path d="M195 160 V500"/>
+    <circle cx="180" cy="120" r="16"/>
+  </g>
+</svg>

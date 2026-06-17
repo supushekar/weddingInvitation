@@ -1,41 +1,47 @@
-# Lakshmi & Supreeth Wedding Invitation Website
+# Wedding Invitation Site
 
-This is a static GitHub Pages website based on the invitation-style screenshot.
+GitHub Pages static site for Lakshmi & Supreeth.
 
-## Upload to GitHub
+## CLI deployment
 
-Upload these files to the root of your repository:
+```bash
+git clone https://github.com/supushekar/weddingInvitation.git
+cd weddingInvitation
 
-- `index.html`
-- `style.css`
-- `README.md`
+# Replace current files with this package's files:
+# index.html
+# style.css
+# assets/
 
-No assets folder is required.
-
-## Enable GitHub Pages
-
-Repository → Settings → Pages
-
-Use:
-
-- Source: Deploy from a branch
-- Branch: main
-- Folder: /root
-
-Your site should be:
-
-`https://supushekar.github.io/weddingInvitation/`
-
-## Add YouTube livestream link
-
-In `index.html`, find:
-
-```html
-<a class="watch-button disabled" href="#">Coming Soon</a>
+git add .
+git commit -m "Build wedding invitation website"
+git push origin main
 ```
 
-Replace with:
+Then open:
+
+```text
+https://supushekar.github.io/weddingInvitation/
+```
+
+## Add YouTube livestream
+
+In `index.html`, replace:
 
 ```html
-<a class="watch-button" href="https://youtube.com/live/YOUR_LINK" target="_blank">Watch Live</a>
+<a class="button disabled" href="#">Coming Soon</a>
+```
+
+with:
+
+```html
+<a class="button" href="https://youtube.com/live/YOUR_LINK" target="_blank">Watch Live</a>
+```
+
+Then run:
+
+```bash
+git add index.html
+git commit -m "Add livestream link"
+git push origin main
 ```
