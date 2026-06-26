@@ -313,6 +313,12 @@ h1 em {
   text-align: left;
 }
 
+.virtual-media {
+  display: grid;
+  justify-items: center;
+  gap: 14px;
+}
+
 .icon {
   width: 86px;
   height: 86px;
@@ -347,6 +353,16 @@ h1 em {
 .button.disabled {
   opacity: .55;
   pointer-events: none;
+}
+
+.qr-code {
+  display: block;
+  width: 96px;
+  height: 96px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0 8px 22px rgba(115, 70, 38, .08);
 }
 
 .photo-card {
